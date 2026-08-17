@@ -1,11 +1,13 @@
 
-
+import Ram from './Ram.js'
 
 function App() {
   return (
     <div className="App">
-      <h1> Website</h1>
+      <Ram/>
+      <h1> Website with React</h1>
     </div>
+    
   );
 }
 
