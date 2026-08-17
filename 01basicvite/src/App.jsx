@@ -1,11 +1,15 @@
 
 
-
+import Ram from './Ram.jsx'
 function App() {
   
 
   return (
-    <h1> Website | React with Vite</h1>
+    <>
+      <Ram/>
+      <h2>Hi this is a react website</h2>
+      <p>This page is under development</p>
+    </>
   )
 }
 
